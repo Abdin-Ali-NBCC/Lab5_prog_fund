@@ -184,6 +184,7 @@
             radOneRoll.TabStop = true;
             radOneRoll.Text = "One Roll";
             radOneRoll.UseVisualStyleBackColor = true;
+            radOneRoll.CheckedChanged += radOneRoll_CheckedChanged;
             // 
             // groupBox1
             // 
@@ -206,6 +207,7 @@
             radRollStats.TabStop = true;
             radRollStats.Text = "Mark Stats";
             radRollStats.UseVisualStyleBackColor = true;
+            radRollStats.CheckedChanged += radRollStats_CheckedChanged;
             // 
             // grpMarkStats
             // 

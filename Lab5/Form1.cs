@@ -6,8 +6,8 @@ namespace Lab5
         {
             InitializeComponent();
         }
-        /* Name:
-         * Date: November 2025
+        /* Name: Abdin Ali
+         * Date: December 2, 2025
          * This program rolls one dice or calculates mark stats.
          * Link to your repo in GitHub: 
          * */
@@ -18,19 +18,21 @@ namespace Lab5
         private void Form1_Load(object sender, EventArgs e)
         {
             //select one roll radiobutton
-
+            radOneRoll.Checked = true;
             //add your name to end of form title
-
+            this.Text += "Abdin Ali";
         } // end form load
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             //call the function
+            ClearOneRoll();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
             //call the function
+            ClearStats();
 
         }
 
@@ -38,19 +40,26 @@ namespace Lab5
         {
             int dice1, dice2;
             //call ftn RollDice, placing returned number into integers
-
+            dice1 = RollDice();
+            dice2 = RollDice();
             //place integers into labels
-
+            lblDice1.Text = dice1.ToString();
+            lblDice2.Text = dice2.ToString();
             // call ftn GetName sending total and returning name
-
+            string name = GetName(dice1 + dice2);
             //display name in label
-
+            lblRollName.Text = name;
         }
 
         /* Name: ClearOneRoll
         *  Sent: nothing
         *  Return: nothing
         *  Clear the labels */
+        private void ClearOneRoll() {
+            lblDice1.Text = string.Empty;
+            lblDice2.Text = string.Empty;
+            lblRollName.Text = string.Empty;
+        }
 
 
         /* Name: ClearStats
@@ -58,12 +67,24 @@ namespace Lab5
         *  Return: nothing
         *  Reset nud to minimum value, chkbox unselected, 
         *  clear labels and listbox */
+        private void ClearStats() {
+            nudNumber.Value =nudNumber.Minimum;
+            chkSeed.Checked = false;
+            lblPass.Text = string.Empty;
+            lblFail.Text = string.Empty;
+            lblAverage.Text = string.Empty;
+            lstMarks.Items.Clear();
+        }
 
 
         /* Name: RollDice
         * Sent: nothing
         * Return: integer (1-6)
         * Simulates rolling one dice */
+        private int RollDice()
+        {
+            return rand.Next(1, 7);
+        }
 
 
         /* Name: GetName
@@ -79,6 +100,44 @@ namespace Lab5
         *        11 = Yo-leven
         *        12 = Boxcars
         * Anything else = No special name*/
+        private string GetName(int total) {
+            string name;
+            switch (total) 
+            {
+                case 2:
+                    name = "Snake Eyes";
+                    break;
+
+                case 3:
+                    name = "Litle Joe";
+                    break;
+
+                case 5:
+                    name = "Fever";
+                    break;
+
+                case 7:
+                    name = "Most Common";
+                    break;
+
+                case 9:
+                    name = "Center Field";
+                    break;
+
+                case 11:
+                    name = "Yo-leven";
+                    break;
+
+                case 12:
+                    name = "Boxcars";
+                    break;
+
+                default:
+                    name = "No special name";
+                    break;
+            }
+            return name;
+        }
 
         private void btnSwapNumbers_Click(object sender, EventArgs e)
         {
@@ -116,6 +175,20 @@ namespace Lab5
             // Format average always showing 2 decimal places 
 
         } // end Generate click
+
+        private void radOneRoll_CheckedChanged(object sender, EventArgs e)
+        {
+            grpOneRoll.Visible = true;
+            grpMarkStats.Visible = false;
+            ClearOneRoll();
+        }
+
+        private void radRollStats_CheckedChanged(object sender, EventArgs e)
+        {
+            grpOneRoll.Visible = false;
+            grpMarkStats.Visible = true;
+            ClearStats();
+        }
 
         /* Name: CalcStats
         * Sent: array and 2 integers

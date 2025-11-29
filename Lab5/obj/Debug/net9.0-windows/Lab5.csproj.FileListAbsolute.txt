@@ -14,3 +14,20 @@ C:\0-OnlineCourse\Projects\Programming Fundamentals\Lab5-Start\Lab5\obj\Debug\ne
 C:\0-OnlineCourse\Projects\Programming Fundamentals\Lab5-Start\Lab5\obj\Debug\net9.0-windows\Lab5.pdb
 C:\0-OnlineCourse\Projects\Programming Fundamentals\Lab5-Start\Lab5\obj\Debug\net9.0-windows\Lab5.genruntimeconfig.cache
 C:\0-OnlineCourse\Projects\Programming Fundamentals\Lab5-Start\Lab5\obj\Debug\net9.0-windows\ref\Lab5.dll
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\bin\Debug\net9.0-windows\Lab5.exe
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\bin\Debug\net9.0-windows\Lab5.deps.json
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\bin\Debug\net9.0-windows\Lab5.runtimeconfig.json
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\bin\Debug\net9.0-windows\Lab5.dll
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\bin\Debug\net9.0-windows\Lab5.pdb
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.Form1.resources
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.csproj.GenerateResource.cache
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.AssemblyInfoInputs.cache
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.AssemblyInfo.cs
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.sourcelink.json
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.dll
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\refint\Lab5.dll
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.pdb
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\Lab5.genruntimeconfig.cache
+C:\Users\Abdin\Documents\GitHub\Lab5_prog_fund\Lab5\obj\Debug\net9.0-windows\ref\Lab5.dll
