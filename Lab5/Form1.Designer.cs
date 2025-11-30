@@ -332,6 +332,7 @@
             chkSeed.TabIndex = 2;
             chkSeed.Text = "Seed Value";
             chkSeed.UseVisualStyleBackColor = true;
+            chkSeed.CheckedChanged += chkSeed_CheckedChanged;
             // 
             // label3
             // 
