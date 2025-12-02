@@ -12,7 +12,7 @@ namespace Lab5
         /* Name: Abdin Ali
          * Date: December 2, 2025
          * This program rolls one dice or calculates mark stats.
-         * Link to your repo in GitHub: 
+         * Link to your repo in GitHub: https://github.com/Abdin-Ali-NBCC/Lab5_prog_fund.git
          * */
 
         //class-level random object
